@@ -62,7 +62,7 @@ int main(void)
     const char* deney_birim[]={"m","m","N","j","N/m^2","m^3","N"};
     const char* gezegen_isim[]={"merkur","venus","dunya","mars","jupiter","saturn","uranus","neptun"};
     const float gezegen_ivme[8]={3.70,8.87,9.81,3.71,24.79,10.44,8.69,11.15};
-    char isim[50];
+    char isim[52];
     int  choice;
     /*=========NAME_INPUT=========*/
     while (1) {
@@ -76,7 +76,7 @@ int main(void)
         }
 
         isim[strcspn(isim, "\n")] = '\0';
-        if (isim[0] == '\0') continue;
+        if (isim[0] == '\0') {printf("isim bos olamaz!\n");continue;}
         break;
     }
             printf("\nHosgeldin %s!\n",isim);
@@ -255,6 +255,7 @@ void Gezegen_islem(int a,const char **isimler,const int gezegen_sayisi,const flo
         printf("[%7s] = %8.2lf %s\n",*(isimler+i),result * g,*(birimler+ a-1));
     }
 }
+
 
 
 
