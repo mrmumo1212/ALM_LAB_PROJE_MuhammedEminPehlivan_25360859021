@@ -66,7 +66,7 @@ int main(void)
     int  choice;
     /*=========NAME_INPUT=========*/
     while (1) {
-        printf("isminizi girin (maksimum 49 karakter): ");
+        printf("isminizi girin (maksimum 50 karakter): ");
         if (!fgets(isim, sizeof(isim), stdin)) continue;
 
         if (!strchr(isim, '\n')) {
@@ -255,6 +255,7 @@ void Gezegen_islem(int a,const char **isimler,const int gezegen_sayisi,const flo
         printf("[%7s] = %8.2lf %s\n",*(isimler+i),result * g,*(birimler+ a-1));
     }
 }
+
 
 
 
