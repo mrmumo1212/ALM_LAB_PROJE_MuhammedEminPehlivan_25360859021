@@ -8,7 +8,7 @@ fakülte/bölüm: Mühendislik ve Doğa Bilimleri Fakültesi / Bilgisayar mühen
 
 Sınıf: Lisans 1. yıl
 
-Youtube Linki: YOK
+Youtube Linki: https://youtu.be/RBbWgH3_yaU?si=oPXrEkawAIx9L8-U
 
 Açıklama: Algoritma labarotuvar dersi kapsamında bizden istenen c kodu ve kodu açıklayan bir rapor bulunmaktadır. Ayriyeten kendim de eğer zamanım olursa bu algoritma için bir youtube videosu düşünüyorum.Algoritma src.c, rapor ise 
 Rapor adlı klasörde bulunmaktadır.
